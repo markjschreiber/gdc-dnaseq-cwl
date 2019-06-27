@@ -128,7 +128,7 @@ steps:
       - id: log
 
   - id: readgroups_bam_to_readgroups_fastq_lists
-    run: readgroups_bam_to_readgroups_fastq_lists.cwl
+    run: readgroups_bam_to_readgroups_fastq_lists_nograph.cwl
     scatter: readgroups_bam_file
     in:
       - id: readgroups_bam_file
