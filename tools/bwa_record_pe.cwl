@@ -113,7 +113,7 @@ arguments:
         var encoding = fastqc_json[inputs.fastq1.basename]["Encoding"];
         var rg_str = to_rg();
 
-        var outbam = inputs.readgroup_meta['ID'] + ".bam";
+        var outbam = inputs.fastq1.basename.slice(0,-5) + ".bam";
 
         if (encoding == "Illumina 1.3" || encoding == "Illumina 1.5") {
           return bwa_aln_64(rg_str, outbam)
