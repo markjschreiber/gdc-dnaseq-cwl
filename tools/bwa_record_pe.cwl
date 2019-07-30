@@ -60,7 +60,7 @@ outputs:
     type: File
     format: "edam:format_2572"
     outputBinding:
-      glob: $(inputs.readgroup_meta['ID'] + ".bam")
+      glob: $(inputs.fastq1.basename.slice(0,-5) + ".bam")
 
 arguments:
   - valueFrom: |
