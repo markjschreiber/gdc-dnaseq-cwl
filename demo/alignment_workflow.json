@@ -1,0 +1,27 @@
+{
+    "fasta":{"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa"},
+    "amb": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.amb"},
+    "ann": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.ann"},
+    "bwt": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.bwt"},
+    "fai": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.fai"},
+    "pac": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.pac"},
+    "sa": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.sa"},
+    "dict": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.dict"},
+    "readgroup_fastq_pe": {
+        "forward_fastq": {"class": "File", "path": "/mnt/SCRATCH/playground/benchmark/BINF-308/wgs/2650_1.fq.gz"},
+        "reverse_fastq": {"class": "File", "path": "/mnt/SCRATCH/playground/benchmark/BINF-308/wgs/2650_2.fq.gz"},
+        "readgroup_meta": {
+            "CN": "unknown",
+            "DT": null,
+            "ID": "2650",
+            "SM": "COLO-829",
+            "LB": "532",
+            "PL": "ILLUMINA",
+            "PU": "0_6",
+            "PM": null
+        }
+    },
+    "thread_count": 4,
+    "fastqc_json": {"class": "File", "path": "/mnt/SCRATCH/playground/benchmark/BINF-308/wgs/fastqc.json"},
+    "bam_name": "COLO-829.532.bam"
+}
