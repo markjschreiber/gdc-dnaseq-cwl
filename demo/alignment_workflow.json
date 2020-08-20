@@ -1,15 +1,15 @@
 {
-    "fasta":{"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa"},
-    "amb": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.amb"},
-    "ann": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.ann"},
-    "bwt": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.bwt"},
-    "fai": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.fai"},
-    "pac": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.pac"},
-    "sa": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.fa.sa"},
-    "dict": {"class": "File", "path": "/mnt/SCRATCH/reference/hwf/GRCh38.d1.vd1.dict"},
+    "fasta":{"class": "File", "path": "s3://uchig-genomics-pipeline-us-east-1/reference/GRCh38.d1.vd1.fa"},
+    "amb": {"class": "File", "path": "s3://uchig-genomics-pipeline-us-east-1/reference/GRCh38.d1.vd1.fa.amb"},
+    "ann": {"class": "File", "path": "s3://uchig-genomics-pipeline-us-east-1/reference/GRCh38.d1.vd1.fa.ann"},
+    "bwt": {"class": "File", "path": "s3://uchig-genomics-pipeline-us-east-1/reference/GRCh38.d1.vd1.fa.bwt"},
+    "fai": {"class": "File", "path": "s3://uchig-genomics-pipeline-us-east-1/reference/GRCh38.d1.vd1.fa.fai"},
+    "pac": {"class": "File", "path": "s3://uchig-genomics-pipeline-us-east-1/reference/GRCh38.d1.vd1.fa.pac"},
+    "sa": {"class": "File", "path": "s3://uchig-genomics-pipeline-us-east-1/reference/GRCh38.d1.vd1.fa.sa"},
+    "dict": {"class": "File", "path": "s3://uchig-genomics-pipeline-us-east-1/reference/GRCh38.d1.vd1.dict"},
     "readgroup_fastq_pe": {
-        "forward_fastq": {"class": "File", "path": "/mnt/SCRATCH/playground/benchmark/BINF-308/wgs/2650_1.fq.gz"},
-        "reverse_fastq": {"class": "File", "path": "/mnt/SCRATCH/playground/benchmark/BINF-308/wgs/2650_2.fq.gz"},
+        "forward_fastq": {"class": "File", "path": "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/2650_1.fq.gz"},
+        "reverse_fastq": {"class": "File", "path": "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/2650_2.fq.gz"},
         "readgroup_meta": {
             "CN": "unknown",
             "DT": null,
@@ -22,6 +22,7 @@
         }
     },
     "thread_count": 4,
-    "fastqc_json": {"class": "File", "path": "/mnt/SCRATCH/playground/benchmark/BINF-308/wgs/fastqc.json"},
+    "fastqc_json": {"class": "File", "path": "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/fastqc.json"},
     "bam_name": "COLO-829.532.bam"
 }
+
